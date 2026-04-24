@@ -73,7 +73,7 @@ It demonstrates how O-RAN SMO (OpenDaylight) can be used to:
 
 ---
 
-## Architecture
+## High-Level Architecture
 
             +----------------------+
             |   FastAPI xApp       |
