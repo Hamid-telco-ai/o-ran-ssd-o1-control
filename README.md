@@ -7,11 +7,14 @@
 
 Signaling Storm Detection (SSD) xApp with O-RAN O1-based closed-loop control using OpenDaylight (SMO), NETCONF, and a simulated O-DU.
 
+<img width="1342" height="782" alt="Screenshot 2026-04-24 132401" src="https://github.com/user-attachments/assets/355540fc-2976-4fd8-b4da-0c57d3a2918a" />
+
+
 ---
 
 ## Overview
 
-This project implements a telecom-grade closed-loop control system:
+This project implements a closed-loop control system:
 
 Traffic Events → SSD Detection → Alarm → O1 Control → DU Update
 
@@ -55,7 +58,7 @@ It demonstrates how O-RAN SMO (OpenDaylight) can be used to:
    → Alarm triggered
 
 4. FastAPI:
-   → RESTCONF request to ODL
+   → RESTCONF request to ODL (OpenDaylight)
 
 5. OpenDaylight:
    → converts to NETCONF edit-config
