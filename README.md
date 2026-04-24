@@ -99,8 +99,6 @@ Example action:
 
 update network-function/user-label
 
-(Note: This is a safe writable field used for demonstration. In real networks, this would map to admission control or traffic shaping.)
-
 ---
 
 ## Setup
