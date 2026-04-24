@@ -23,7 +23,7 @@ It demonstrates how O-RAN SMO (OpenDaylight) can be used to:
 
 ---
 
-## Key Features
+## Procedure
 
 - Signaling Storm Detection (SSD)
   - Z-score anomaly detection using (μ, σ)
@@ -42,6 +42,31 @@ It demonstrates how O-RAN SMO (OpenDaylight) can be used to:
 - FastAPI Backend
   - Modular services (detector, O1 client, enrichment)
   - REST APIs for inference, monitoring, and control
+
+---
+
+ ## Algorithm
+1. Events generated (simulated traffic)
+
+2. FastAPI:
+   → SSD detects anomaly
+
+3. Decision:
+   → Alarm triggered
+
+4. FastAPI:
+   → RESTCONF request to ODL
+
+5. OpenDaylight:
+   → converts to NETCONF edit-config
+
+6. O-DU:
+   → applies configuration change
+
+7. FastAPI:
+   → reads updated state via O1
+
+8. System confirms action
 
 ---
 
@@ -66,7 +91,6 @@ It demonstrates how O-RAN SMO (OpenDaylight) can be used to:
             +----------------------+
             | O-DU Simulator       |
             +----------------------+  
-
 ---
 
 ## Detection Logic
