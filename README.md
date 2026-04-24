@@ -219,5 +219,17 @@ POST /o1/control/user-label
   Open-source SDN controller used as a lightweight SMO-like platform to expose RESTCONF APIs and perform NETCONF-based O1 control.  
   https://github.com/opendaylight
 
+- **O-RAN.WG1.Use-Cases-Detailed-Specification-R003-v12.00**  
+   – Defines the O-RAN architecture and key use cases, including Signaling Storm Detection and Mitigation using Near-RT RIC xApps. It specifies required data (e.g., connection establishment events, UE identifiers, Timing Advance) and closed-loop control via E2 interfaces.  
+   – https://www.o-ran.org
+
+- **Signaling Storm Detection in IIoT Network based on the Open RAN Architecture**  
+   – Proposes an O-RAN xApp that monitors control-plane signaling (e.g., RACH, registration messages) and builds KPI-based statistical profiles (mean, variance) to detect abnormal UE behavior early in the access procedure.  
+   – https://ieeexplore.ieee.org/document/10226043
+
+- **An Open-RAN Testbed for Detecting and Mitigating Radio-Access Anomalies**  
+   – Demonstrates a practical O-RAN testbed where anomaly detection algorithms are deployed as xApps to identify and mitigate radio access anomalies in real-time environments.  
+   – https://ieeexplore.ieee.org/document/11020585
+
 
 
