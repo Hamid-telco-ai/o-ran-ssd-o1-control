@@ -7,7 +7,7 @@
 
 Signaling Storm Detection (SSD) xApp with O-RAN O1-based closed-loop control using OpenDaylight (SMO), NETCONF, and a simulated O-DU.
 
-<img width="1342" height="782" alt="Screenshot 2026-04-24 132401" src="https://github.com/user-attachments/assets/355540fc-2976-4fd8-b4da-0c57d3a2918a" />
+<img width="1695" height="928" alt="2319a560-c3d2-4579-8d86-956f90db6e33" src="https://github.com/user-attachments/assets/7cb03c02-c635-40f8-945b-2760aa76d7ef" />
 
 
 ---
