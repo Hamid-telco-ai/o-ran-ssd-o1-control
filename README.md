@@ -193,5 +193,11 @@ POST /o1/control/user-label
 - docker build -t o-ran-ssd-xapp .
 - docker run -p 8000:8000 -e O1_ODL_BASE_URL=http://<ODL_IP>:8181 o-ran-ssd-xapp
 
+```
+## References
+
+- O-RAN SC O1 Interface Simulator  
+  https://docs.o-ran-sc.org/projects/o-ran-sc-sim-o1-interface/en/latest/overview.html
+
 
 
