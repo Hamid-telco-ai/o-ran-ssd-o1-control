@@ -223,8 +223,13 @@ POST /o1/control/user-label
 ```
 ## References
 
-- O-RAN SC O1 Interface Simulator  
+  - **O-RAN SC O1 Interface Simulator**  
+  Used to emulate a NETCONF-enabled O-DU and validate O1 interactions.  
   https://docs.o-ran-sc.org/projects/o-ran-sc-sim-o1-interface/en/latest/overview.html
+
+- **OpenDaylight (ODL)**  
+  Open-source SDN controller used as a lightweight SMO-like platform to expose RESTCONF APIs and perform NETCONF-based O1 control.  
+  https://github.com/opendaylight
 
 
 
