@@ -116,18 +116,6 @@ score = 18 → reject
 
 ---
 
-## Closed-loop Action
-
-When an anomaly is detected:
-
-SSD → Alarm → O1 edit-config → DU update
-
-Example action:
-
-update network-function/user-label
-
----
-
 ## Setup
 
 ### 1. Start O-DU Simulator
