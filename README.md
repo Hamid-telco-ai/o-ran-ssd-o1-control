@@ -181,15 +181,19 @@ POST /o1/control/user-label
 ## How to Run
 
 ### Local
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-python -m uvicorn app.main:app --reload
+
+```bash
+- python -m venv .venv
+- .venv\Scripts\activate
+- pip install -r requirements.txt
+- python -m uvicorn app.main:app --reload
+```
 
 ### Docker
-docker build -t o-ran-ssd-xapp .
-docker run -p 8000:8000 -e O1_ODL_BASE_URL=http://<ODL_IP>:8181 o-ran-ssd-xapp
 
+```bash
+- docker build -t o-ran-ssd-xapp .
+- docker run -p 8000:8000 -e O1_ODL_BASE_URL=http://<ODL_IP>:8181 o-ran-ssd-xapp
 ---
 
 
