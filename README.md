@@ -140,7 +140,7 @@ python -m uvicorn app.main:app --reload
 
 ## APIs
 
-O1 Data
+### O1 Data
 
 ```bash
 GET /o1/topology
@@ -149,12 +149,12 @@ GET /o1/netconf-state
 GET /o1/du-model
 GET /o1/snapshot
 ```
-SSD Inference
+### SSD Inference
 
 ```bash
 POST /infer/ingested
 ```
-O1 Control
+### O1 Control
 
 ```bash
 POST /o1/control/user-label
@@ -194,7 +194,6 @@ POST /o1/control/user-label
 ```bash
 - docker build -t o-ran-ssd-xapp .
 - docker run -p 8000:8000 -e O1_ODL_BASE_URL=http://<ODL_IP>:8181 o-ran-ssd-xapp
----
 
 
 
